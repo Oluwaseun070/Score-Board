@@ -59,7 +59,7 @@ function updateScores(){
     }
     
     else if (guestTimer.textContent> homeTimer.textContent){
-       leaderBoard = "GUEST team is leading by " + guestTimer.textContent + " goals🏆"
+       leaderBoard = "AWAY team is leading by " + guestTimer.textContent + " goals🏆"
     }
     
     else { leaderBoard = "It is a tie ⚖️"  
