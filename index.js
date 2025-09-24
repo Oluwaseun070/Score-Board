@@ -39,7 +39,7 @@ function guest_increment_3(){
 
 // Reset Function to Zero
 
-function reset (){
+function reset_btn(){
     homeTimer.textContent = 0
     counter = 0
     guestTimer.textContent= 0
