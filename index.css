@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Digital7';
+  src: url('fonts/digital-7.ttf') format('truetype');
+}
+  
+body {
+    margin: 0;
+    background-color: #0C2B49;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 5rem;
+}
+
+.container h3{
+    font-family: Verdana;
+    font-size: 3rem;
+    margin-bottom: -2rem;
+}
+
+
+.counter-display{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.counter-display h3{
+    /* font-family: Cursed Timer ULiL; */
+    font-weight: 400;
+    letter-spacing: 0;
+    border: solid black 2rem;
+    background-color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    text-align: center;
+    border-radius: 15px;
+    line-height: 1rem;
+     font-family: 'Digital-7 mono', monospace;
+  font-size: 7rem;
+  color: #ff2d55;
+   
+}
+
+.incremental-button{
+    display: flex;
+    justify-content: space-evenly;
+    color: #9AABD8;
+    font-size: 2px;
+}
+
+button{
+    margin-left:10px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center; 
+    background-color: #0C2B49;
+    border:2px solid #9AABD8 ;
+    color: #9AABD8;
+    border-radius: 5px;
+    font-family: 'Digital-7 mono', monospace;
+    
+}
+
+#reset-btn{
+    background-color: darkgreen;
+    color: white;  
+}
+
+#reset-btn:hover {
+    background-color:darkolivegreen;
+    
+}
+
+#leaderBoard {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    color:bisque;
+    font-weight: bold;
+    }

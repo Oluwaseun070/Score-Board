@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/digital-7-mono" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+            </div>
+        </div>
+        
+        <div class="counter-display">
+            <div>
+                <h3 id="home_display">0</h3>
+            </div>
+            <div>
+                <h3 id="guest_display">0</h3>
+            </div>
+        </div>
+        
+        <div class="incremental-button">
+        <div class="timer-increment">
+            <button id="incre-1-btn" onclick="home_increment_1()">+1</button>
+            <button id="incre-2-btn" onclick="home_increment_2()">+2</button>
+            <button id="incre-3-btn" onclick="home_increment_3()">+3</button>
+        </div>
+        
+        <div class="timer-increment">
+            <button id="reset-btn" onclick="reset()">Reset Scores</button>
+        </div>
+        
+         <div class="timer-increment">
+            <button id="guest-incre-1-btn" onclick="guest_increment_1()">+1</button>
+            <button id="guest-incre-2-btn" onclick="guest_increment_2()">+2</button>
+            <button id="guest-incre-3-btn" onclick="guest_increment_3()">+3</button>
+        </div>
+         </div>
+         
+         <p id="leaderBoard">Leader Board:  </p>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
